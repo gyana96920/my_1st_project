@@ -48,6 +48,7 @@ def remove_task(todo_file):
         if 0 <= index < len(tasks):
             with open(todo_file, "w") as f:
                 for i, task in enumerate(tasks):
+                    if main ()
                     if i != index:
                         f.write(task)
             print("Task removed successfully.")
